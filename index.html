@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Splicing Events in Eye Tissues &ndash; Eye Splicer</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/app.css" type="text/css" media="all">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://www.biodalliance.org/release-0.13/dalliance-compiled.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1 class="title-main">Eye Splicer</h1>
+            <p class="description-main">Explore alternative splicing events across different developmental stages in different eye tissues from mouse samples.</p>
+        </div>
+        <section>
+            <div class="sidebar">
+                <h2 class="title-explore">Explore</h2>
+                <p>
+                    <select id="type">
+                        <option value="SE">Skipped Exons</option>
+                        <option value="RI">Retained Introns</option>
+                    </select>
+                </p>
+                <ul id="list">
+                </ul>
+                <p>
+                    <a href="#" class="export">Export current view as SVG</a>
+                </p>
+            </div>
+            <div class="main">
+                <div id="browser"></div>
+            </div>
+        </section>
+        <p class="footer">Uses <a href="http://www.biodalliance.org/" target="_blank">Biodalliance 0.13</a>. <a href="http://www.iupui.edu/~jangalab/" target="_blank">Janga Lab, Laboratory of Genomics and Systems Biology</a> at Indiana University, IUPUI, Indianapolis, IN, USA</p>
+    </div>
+    <script type="text/javascript" src="js/browser.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
