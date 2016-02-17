@@ -1,6 +1,6 @@
 /*
 Modifies the generated SVG
-by Dallience for cleaner output
+by Biodalliance for cleaner output
 */
 function modifySvg(svg) {
     // remove dalliance link
