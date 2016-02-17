@@ -1,6 +1,6 @@
 # Eye Splicer
 
-A genome browser for exploring alternative splicing events across different developmental stages in lens tissues from mouse samples.
+A genome browser for exploring alternative splicing events across different developmental stages in lens from mouse samples.
 
 ## Server
 
