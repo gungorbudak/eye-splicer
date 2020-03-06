@@ -33,6 +33,7 @@ ul {
 }
 section {
     margin: auto;
+    clear: both;
 }
 div.sidebar {
     width: 160px;
@@ -54,6 +55,7 @@ ul#list > li:last-child {
     border-bottom: 0px;
 }
 div.sidebar > p > a,
+section > p > a,
 ul#list > li > a {
     color: #369;
     text-decoration: none;
@@ -61,13 +63,16 @@ ul#list > li > a {
 div.sidebar > p > a:active,
 div.sidebar > p > a:hover,
 div.sidebar > p > a:focus,
+section > p > a:active,
+section > p > a:hover,
+section > p > a:focus,
 ul#list > li > a:active,
 ul#list > li > a:hover,
 ul#list > li > a:focus {
     text-decoration: underline;
 }
 div.main {
-    min-height:350px;
+    min-height:400px;
     margin-left: 15%;
 }
 .footer {

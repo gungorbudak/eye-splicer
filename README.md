@@ -4,7 +4,7 @@ A genome browser for exploring alternative splicing events across different deve
 
 ## Server
 
-Eye Splicer is running on http://www.iupui.edu/~sysbio/eye-splicer/
+Eye Splicer is running on https://sysbio.sitehost.iu.edu/eye-splicer/
 
 ## Features
 

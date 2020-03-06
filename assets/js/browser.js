@@ -1,3 +1,5 @@
+var BASE_URL = 'https://sysbio.sitehost.iu.edu/eye-splicer/';
+
 /*
 Popup method for gene and transcript features
 */
@@ -56,7 +58,7 @@ var seTiers = [
     {
         name: 'E15-SE-PSI',
         desc: 'Mouse developmental stage E15 skipped exon inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/E15_SE_psi.bb',
+        bwgURI: BASE_URL + 'resources/E15_SE_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         noDownsample: true
@@ -64,7 +66,7 @@ var seTiers = [
     {
         name: 'E18-SE-PSI',
         desc: 'Mouse developmental stage E18 skipped exon inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/E18_SE_psi.bb',
+        bwgURI: BASE_URL + 'resources/E18_SE_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         noDownsample: true
@@ -72,7 +74,7 @@ var seTiers = [
     {
         name: 'P0-SE-PSI',
         desc: 'Mouse developmental stage P0 skipped exon inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P0_SE_psi.bb',
+        bwgURI: BASE_URL + 'resources/P0_SE_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         noDownsample: true
@@ -80,7 +82,7 @@ var seTiers = [
     {
         name: 'P3-SE-PSI',
         desc: 'Mouse developmental stage P3 skipped exon inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P3_SE_psi.bb',
+        bwgURI: BASE_URL + 'resources/P3_SE_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         noDownsample: true
@@ -88,7 +90,7 @@ var seTiers = [
     {
         name: 'P6-SE-PSI',
         desc: 'Mouse developmental stage P6 skipped exon inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P6_SE_psi.bb',
+        bwgURI: BASE_URL + 'resources/P6_SE_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         noDownsample: true
@@ -96,7 +98,7 @@ var seTiers = [
     {
         name: 'P9-SE-PSI',
         desc: 'Mouse developmental stage P9 skipped exon inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P9_SE_psi.bb',
+        bwgURI: BASE_URL + 'resources/P9_SE_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         noDownsample: true
@@ -107,7 +109,7 @@ var riTiers = [
     {
         name: 'E15-RI-PSI',
         desc: 'Mouse developmental stage E15 retained intron inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/E15_RI_psi.bb',
+        bwgURI: BASE_URL + 'resources/E15_RI_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         disabled: true,
@@ -116,7 +118,7 @@ var riTiers = [
     {
         name: 'E18-RI-PSI',
         desc: 'Mouse developmental stage E18 retained intron inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/E18_RI_psi.bb',
+        bwgURI: BASE_URL + 'resources/E18_RI_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         disabled: true,
@@ -125,7 +127,7 @@ var riTiers = [
     {
         name: 'P0-RI-PSI',
         desc: 'Mouse developmental stage P0 retained intron inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P0_RI_psi.bb',
+        bwgURI: BASE_URL + 'resources/P0_RI_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         disabled: true,
@@ -134,7 +136,7 @@ var riTiers = [
     {
         name: 'P3-RI-PSI',
         desc: 'Mouse developmental stage P3 retained intron inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P3_RI_psi.bb',
+        bwgURI: BASE_URL + 'resources/P3_RI_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         disabled: true,
@@ -143,7 +145,7 @@ var riTiers = [
     {
         name: 'P6-RI-PSI',
         desc: 'Mouse developmental stage P6 retained intron inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P6_RI_psi.bb',
+        bwgURI: BASE_URL + 'resources/P6_RI_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         disabled: true,
@@ -152,7 +154,7 @@ var riTiers = [
     {
         name: 'P9-RI-PSI',
         desc: 'Mouse developmental stage P9 retained intron inclusion levels (PSI)',
-        bwgURI: '/~sysbio/eye-splicer/resources/P9_RI_psi.bb',
+        bwgURI: BASE_URL + 'resources/P9_RI_psi.bb',
         style: [{type: 'default', style: {glyph: 'HISTOGRAM', BGCOLOR: 'rgb(8,104,172)', HEIGHT: 30, id: 'style'}}],
         featureInfoPlugin: exonFeatures,
         disabled: true,
@@ -162,7 +164,7 @@ var riTiers = [
 // default sources as reference genome and genome structure
 var sources = [{
     name: 'Genome',
-    twoBitURI: 'http://www.biodalliance.org/datasets/GRCm38/mm10.2bit',
+    twoBitURI: BASE_URL + 'resources/mm10.2bit',
     desc: 'Mouse reference genome build GRCm38',
     tier_type: 'sequence',
     provides_entrypoints: true,
@@ -170,10 +172,10 @@ var sources = [{
 }, {
     name: 'Genes',
     desc: 'Mouse gene structures GENCODE version M7 (GRCm38.p4)',
-    bwgURI: 'http://ngs.sanger.ac.uk/production/gencode/trackhub/data/gencode.vM7.annotation.bb',
-    stylesheet_uri: 'http://www.biodalliance.org/stylesheets/gencode.xml',
+    bwgURI: BASE_URL + 'resources/gencode.vM7.annotation.bb',
+    stylesheet_uri: BASE_URL + 'resources/gencode.xml',
     collapseSuperGroups: true,
-    trixURI: 'http://ngs.sanger.ac.uk/production/gencode/trackhub/data/gencode.vM7.annotation.ix',
+    trixURI: BASE_URL + 'resources/gencode.vM7.annotation.ix',
     noSourceFeatureInfo: true,
     featureInfoPlugin: geneFeatures,
     provides_search: true
@@ -205,6 +207,7 @@ var browser = new Browser({
     // additional options for customizing the browser
     pageName: 'browser',
     uiPrefix: '//www.biodalliance.org/release-0.13/',
+    maxHeight: 400,
     fullScreen: true,
     setDocumentTitle: false,
     disablePoweredBy: true,
